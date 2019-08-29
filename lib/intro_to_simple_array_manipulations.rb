@@ -18,8 +18,8 @@ def  using_unshift(array)
   array.unshift()
 end
 
-def using_shift_with_args
-  
+def using_shift_with_args(array)
+  array.shift(2)
 end
 
 def using_concat
